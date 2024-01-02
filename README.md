@@ -3,7 +3,7 @@
 ## After 2 Hours:
 - Installed packages necessary for virtual environment, in this case `Django` and `psycopg2`
 - set up local database named `bobyard` for postgresql server
-- write a script to transform `comments.json` inside app directory (See below on why we need to transform the current JSON file)
+- wrote a script to transform `comments.json` inside app directory (See below on why we need to transform the current JSON file)
 - created a model for the `comment` table for each entry of comments from `comments.json`
 - able to upload `comments.json` into local database with the necessary Django app settings.
 
