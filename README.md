@@ -7,7 +7,8 @@
 - created a model for the `comment` table for each entry of comments from `comments.json`
 - able to upload `comments.json` into local database with the necessary Django app settings.
 
-  
+## Beekeeper Studio GUI on Database
+
 ![Screen Shot 2024-01-02 at 3 37 03 PM](https://github.com/cwong6854/bobyard-comments/assets/96265081/2ae76589-7038-4291-8301-7ab2c64d049b)
 
 ## Setting Up Database
