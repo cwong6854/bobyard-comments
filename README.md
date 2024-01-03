@@ -14,7 +14,7 @@
 ## Setting Up Database
 
 1. Git clone the repo: `git clone https://github.com/cwong6854/bobyard-comments.git`
-2. Create the database: `createdb bobyard`
+2. Create the database (requires PostgreSQL installed): `createdb bobyard`
 3. Go to parent directory: `cd path/to/comments`
 4. Make database migration: `python manage.py makemigrations` (There should be no changes)
 5. Load the data to local database: `python manage.py loaddata comments.json`
