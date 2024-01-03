@@ -15,9 +15,18 @@
 
 1. Git clone the repo: `git clone https://github.com/cwong6854/bobyard-comments.git`
 2. Create the database (requires PostgreSQL installed): `createdb bobyard`
-3. Go to parent directory: `cd path/to/comments`
-4. Make database migration: `python manage.py makemigrations` (There should be no changes)
-5. Load the data to local database: `python manage.py loaddata comments.json`
+3. In `bobyard`, use psql command: 
+`CREATE TABLE "comment" (
+    "id" varchar(255) NOT NULL PRIMARY KEY,
+    "author" varchar(255) NOT NULL,
+    "text" text NOT NULL,
+    "date" timestamp with time zone NOT NULL,
+    "likes" integer NOT NULL,
+    "image" varchar(200) NULL
+);`
+4. Go to parent directory: `cd path/to/comments`
+5. Make database migration: `python manage.py makemigrations` (There should be no changes)
+6. Load the data to local database: `python manage.py loaddata comments.json`
    
 
 ## Moving Forward
